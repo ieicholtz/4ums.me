@@ -1,0 +1,19 @@
+#Form_Go{
+	width: 20px;
+	height: 20px;
+}
+
+#Form_CategoryID{
+	color: #333;
+}
+
+#Form_Body{
+	color: #333;
+}
+
+.DataList li{
+	margin-top: 10px;
+}
+
+.DataList li:nth-child(odd){ background-color:#f9f9f9; }
+.DataList li:nth-child(even){ background-color:#cfecff; }

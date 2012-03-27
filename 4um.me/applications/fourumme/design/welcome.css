@@ -1,0 +1,257 @@
+/* =============================================================================
+   Welcome Global
+   ========================================================================== */
+
+h1{
+	font-weight: 700;
+	font-size: 2.0em;
+	color: #f2f2f2;
+}
+
+h2{
+	font-weight: 400;
+	font-size: 1.25em;
+	color: #f9f9f9;
+}
+
+body:before {
+	content: "";
+    position: fixed;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    -moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+    box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	z-index: 100;
+}
+
+.content:before{
+	content: "";
+	position: fixed;
+	top: -10px;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	z-index: 100;
+}
+
+
+.wrapper{
+	width:960px;
+	margin: 0 auto;
+}
+
+/* =============================================================================
+   Top
+   ========================================================================== */
+
+
+.content img{
+	margin: 10px 0 0 0;
+	padding:0;
+	float:left;
+}
+
+.welcomeTop{
+	margin: 0;
+	padding: 10px 0 0 0;
+	background: #39414c;
+	-webkit-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+}
+
+#signInLink{
+	margin: 10px 10px 0 0;
+	float: right;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 110%;
+}
+
+#info{
+	margin: 50px 0 0 10px;
+	float: left;
+	width: 500px;
+}
+
+#info h1{
+	margin-bottom: 15px;
+}
+
+#register{
+	float: right;
+	width: 305px;
+	margin: 50px 10px 30px 0;
+	padding: 0;
+}
+
+#register a{
+	text-decoration: none;
+}
+
+#registerTitle{
+	font-weight: 700;
+	color: #f9f9f9;
+	font-size: 120%;
+	margin: 0 0 0 0;
+}
+
+#Form_User_Register input{
+	margin: 15px 0 0 0;
+	padding: 0 0 0 5px;
+	font-size: 110%;
+	height: 30px;
+	width: 300px;
+	background: #f6f6f6;
+	background-image: linear-gradient(bottom, rgb(246,246,246) 0%, rgb(228,228,228) 75%);
+	background-image: -o-linear-gradient(bottom, rgb(246,246,246) 0%, rgb(228,228,228) 75%);
+	background-image: -moz-linear-gradient(bottom, rgb(246,246,246) 0%, rgb(228,228,228) 75%);
+	background-image: -webkit-linear-gradient(bottom, rgb(246,246,246) 0%, rgb(228,228,228) 75%);
+	background-image: -ms-linear-gradient(bottom, rgb(246,246,246) 0%, rgb(228,228,228) 75%);
+	background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0, rgb(246,246,246)), color-stop(0.75, rgb(228,228,228)));
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	color: #515F6A;
+	border: 1px inset #515F6A;
+}
+
+#Form_User_Register #Form_Gender{
+	margin: 15px 0 0 0;
+	padding: 0;
+	width: 25px;
+	height: 20px;
+}
+
+#Form_User_Register #Form_Gender1{
+	margin: 15px 0 0 0;
+	padding: 0;
+	width: 25px;
+	height: 20px;
+}
+
+#Form_User_Register .RadioLabel{
+	margin: 0 25px 0 0;
+	padding: 0;
+}
+
+#Form_User_Register #Form_TermsOfService{
+	margin: 15px 0 0 0;
+	padding: 0;
+	width: 25px;
+	height: 20px;
+}
+
+#Form_User_Register #Form_RememberMe{
+	margin: 15px 0 0 0;
+	padding: 0;
+	width: 25px;
+	height: 20px;
+}
+
+#Form_User_Register .CheckBoxLabel{
+	margin: 0 25px 0 0;
+	padding: 0;
+}
+
+#Form_User_Register #Form_GetStarted{
+	margin: 20px 0 0 0;
+	padding: 0;
+	width: 300px;
+	height: 45px;
+	background: #4caddd;
+	background-image: linear-gradient(bottom, rgb(27,118,187) 0%, rgb(76,173,221) 25%);
+	background-image: -o-linear-gradient(bottom, rgb(27,118,187) 0%, rgb(76,173,221) 25%);
+	background-image: -moz-linear-gradient(bottom, rgb(27,118,187) 0%, rgb(76,173,221) 25%);
+	background-image: -webkit-linear-gradient(bottom, rgb(27,118,187) 0%, rgb(76,173,221) 25%);
+	background-image: -ms-linear-gradient(bottom, rgb(27,118,187) 0%, rgb(76,173,221) 25%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, rgb(27,118,187)),
+		color-stop(0.25, rgb(76,173,221))
+	);
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	color: #f6f6f6;
+	border: 1px outset #515F6A;
+	font-weight: bold;
+	float: right;
+	font-size: 130%;
+}
+
+.Errors{
+	margin: 0;
+	padding: 0;
+}
+
+.Errors ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.Errors ul{
+	margin: 0;
+	padding: 0;
+	color: #ff0000;
+}
+
+/* =============================================================================
+   Bottom Content
+   ========================================================================== */
+
+.feature{
+	margin: 30px 25px 30px 0;
+	padding: 0;
+	width: 30.5%;
+	list-style: none;
+	display: block;
+	float: left;
+}
+
+.feature:first-child{
+	margin: 30px 25px 30px 10px;
+}
+
+.feature:last-child{
+	margin: 30px 10px 30px 0;
+}
+
+.feature li{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.feature h4{
+	margin: 0;
+	padding: 0;
+	color: #272727;
+	font-size: 130%;
+	float: left;
+}
+
+.feature p{
+	clear: both;
+	margin: 0;
+	padding: 10px 0 0 0;
+	color: #333333;
+	text-align: justify;
+}
+
+.feature img{
+	margin: 0 40px 0 0;
+	height: 32px;
+	width: 45px;
+	float:left;
+}

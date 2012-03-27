@@ -1,0 +1,21 @@
+Font:
+
+PT Sans Narrow
+
+
+
+Style:
+
+Normal 400
+Bold 700
+
+
+Source:
+
+google.com/webfonts
+
+
+Link:
+
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+

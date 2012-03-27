@@ -1,0 +1,18 @@
+Framework:
+
+Garden PHP
+
+
+
+Author:
+
+Mark O'Sullivan
+mark@vanillaforums.com
+
+
+
+License:
+
+
+GNU General Public License
+http://www.gnu.org/licenses/
