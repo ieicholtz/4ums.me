@@ -1,0 +1,10 @@
+Install Instructions:
+
+1. Add the package to localhost or server
+2. create a database
+3. link to the main directory and follow the default installer
+4. Select Applications from the left dashboard menu
+5. enable the application
+
+
+
